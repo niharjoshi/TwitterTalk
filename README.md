@@ -18,11 +18,15 @@ Clone the repository and navigate to its root. Then run the following command to
 ```console
 pip install -r requirements.txt
 ```
+Download all gzip files from [Google Drive](https://drive.google.com/drive/folders/1DUKkzadpLQD-AoX6xgXhWLpGY0Yg5g7K?usp=sharing) and copy them to:
+```
+TwitterTalk/data/input
+```
 Start Jupyter Notebook in a new bash shell:
 ```console
 jupyter notebook
 ````
 Open the ipynb file in Jupyter Notebook and run all the cells:
 ```
-src/sentiment_emotion_analysis.ipynb
+TwitterTalk/src/sentiment_emotion_analysis.ipynb
 ```
